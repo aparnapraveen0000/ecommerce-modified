@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form method="get" id="register-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required/>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required/>
+        <br><br>
+
+        <label for="phone-number">Phone-number:</label>
+        <input type="tel" id="phone-number" name="phonenumber" required/>
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="text" name="age" id="age"/>
+         <br><br>
+
+         <label for="gender">Gender:</label>
+        <input type="text" name="gender" id="gender" required/>
+        <br><br>
+
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" name="address"></textarea>
+        
+<br><br>
+<button id="form-submit">Form submitted</button>
+
+    </form>
+
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
