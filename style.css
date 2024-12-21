@@ -25,3 +25,9 @@
     height:500px;
     width:100%
 }
+
+#errormsg{
+    color:red;
+    font-size: 30px;
+    font-weight: 400;
+}
